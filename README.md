@@ -1,3 +1,5 @@
+```yaml
+
 ---
 - hosts: servera.example.com
   become: true
@@ -45,3 +47,4 @@
        state: latest
      become: true
      register: out
+```
